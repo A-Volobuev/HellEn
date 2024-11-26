@@ -1,0 +1,14 @@
+.splide__track {
+  padding-bottom: 20px;
+}
+@media(max-width: 580.9px){
+  .splide__track {
+    padding-bottom: 0px;
+  }
+}
+
+/* @media(max-width: 1100.9px){
+  .splide__slide{
+    gap: 46px; 
+  }
+} */
