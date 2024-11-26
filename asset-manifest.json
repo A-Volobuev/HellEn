@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HellEn/static/css/main.69e2e034.css",
-    "main.js": "/HellEn/static/js/main.76d484a8.js",
+    "main.js": "/HellEn/static/js/main.5d2effb9.js",
     "static/media/RegistrationBg.png": "/HellEn/static/media/RegistrationBg.8c3d37cb70b2e4f06e96.png",
     "static/media/MainImg.png": "/HellEn/static/media/MainImg.2f833b6ed8514c6627ed.png",
     "static/media/TeacherImg.png": "/HellEn/static/media/TeacherImg.e55666460460bd8ec3cb.png",
@@ -34,10 +34,10 @@
     "static/media/ArrowPrev.svg": "/HellEn/static/media/ArrowPrev.cd395e3110e3f056e9e3e82ac45ce6db.svg",
     "static/media/ArrowNext.svg": "/HellEn/static/media/ArrowNext.7c15eca8994090b3943ebc53628b5b5a.svg",
     "main.69e2e034.css.map": "/HellEn/static/css/main.69e2e034.css.map",
-    "main.76d484a8.js.map": "/HellEn/static/js/main.76d484a8.js.map"
+    "main.5d2effb9.js.map": "/HellEn/static/js/main.5d2effb9.js.map"
   },
   "entrypoints": [
     "static/css/main.69e2e034.css",
-    "static/js/main.76d484a8.js"
+    "static/js/main.5d2effb9.js"
   ]
 }
