@@ -3,7 +3,7 @@ import { ReactComponent as LogoIcon } from './Logo.svg';
 import WaveBg from './WaveBg.svg';
 import MainImg from './MainImg.webp';
 
-import { ReactComponent as Human } from './Human1.svg';
+import { ReactComponent as Human } from './icomoon.svg/Human1';
 import { ReactComponent as Phone } from './Phone2.svg';
 import { ReactComponent as Dolar } from './Dolar3.svg';
 
@@ -24,13 +24,13 @@ import { ReactComponent as TeachersCheck } from './TeachersCheck.svg';
 
 import { ReactComponent as GuaranteeFireSvg } from './GuaranteeFireSvg.svg';
 
-import Avatar01 from './Review/Avatar01.png';
-import Avatar02 from './Review/Avatar02.png';
-import Avatar03 from './Review/Avatar03.png';
-import Avatar04 from './Review/Avatar04.png';
-import Avatar05 from './Review/Avatar05.png';
-import Avatar06 from './Review/Avatar06.png';
-import Avatar07 from './Review/Avatar07.png';
+import Avatar01 from './Review/Avatar01.webp';
+import Avatar02 from './Review/Avatar02.webp';
+import Avatar03 from './Review/Avatar03.webp';
+import Avatar04 from './Review/Avatar04.webp';
+import Avatar05 from './Review/Avatar05.webp';
+import Avatar06 from './Review/Avatar06.webp';
+import Avatar07 from './Review/Avatar07.webp';
 import { ReactComponent as Facebook } from './Review/Facebook.svg';
 import ArrowPrev from './Review/ArrowPrev.svg';
 import ArrowNext from './Review/ArrowNext.svg';
