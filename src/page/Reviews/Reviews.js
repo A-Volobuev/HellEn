@@ -128,7 +128,6 @@ export const ReviewsBlock = () => {
 				}}
     		type="button"
     		aria-label="Previous slide"
-    		aria-controls="splide01-track"
         style={{ background: 'none', border: 'none', cursor: 'pointer' }}
       >
         <img src={ArrowPrev} alt="Previous" width="25" height="40" />
@@ -140,7 +139,6 @@ export const ReviewsBlock = () => {
 			}}
     		type="button"
     		aria-label="Next slide"
-    		aria-controls="splide01-track"
         style={{ background: 'none', border: 'none', cursor: 'pointer' }}
       >
         <img src={ArrowNext} alt="Next" width="25" height="40" />
