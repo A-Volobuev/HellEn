@@ -8,7 +8,7 @@ import {BackToTopBtn} from './'
 function App() {
   AOS.init({ 
 		duration: 1000, // Длительность анимации
-  	offset: 150,
+  	offset: 100,
 	});
   const [open, setOpen] = useState(false);
   const toggleModal = () => setOpen((prev) => !prev);

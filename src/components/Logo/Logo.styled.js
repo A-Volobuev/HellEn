@@ -40,7 +40,7 @@ export const LogoSubTitle = styled.span`
 	user-select: none;
 
 	span{
-		${(props) => props.theme.color.main};
+		color: ${(props) => props.theme.color.main};
 	}
 
 	@media(max-width: 580.9px) {

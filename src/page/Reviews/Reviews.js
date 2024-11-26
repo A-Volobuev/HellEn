@@ -104,7 +104,7 @@ export const ReviewsBlock = () => {
 						<PaginationMobileBox>
 							<PaginationMobileSplide mobileSlideIndex={iconMobileSlideIndex}>
 								{reviews.map((review, index) => (
-									<PaginationCustomBtn data-aos="zoom-in" data-aos-duration="1500"
+									<PaginationCustomBtn
 									key={index}
 									onClick={() =>{
 										goToSlide(index);

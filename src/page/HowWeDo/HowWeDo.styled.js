@@ -59,6 +59,7 @@ export const Card = styled.div`
 
 	/* Анмиация */
 	transition: transform 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease;
+	
 	span{
 	font-size: 20px;
 	font-weight: 600;

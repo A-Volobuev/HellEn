@@ -13,6 +13,10 @@ export const Button = styled.button`
 	&:hover{
 		background-color: #FF6B09;
 	}
+	@media(max-width: 768.9px) {
+		width: 25px;
+		height: 25px;
+	}
 `;
 export const Svg = styled(IoIosArrowDropupCircle)`
 	position: fixed;
@@ -29,6 +33,6 @@ export const Svg = styled(IoIosArrowDropupCircle)`
 
 	@media(max-width: 768.9px) {
 		width: 30px;
-	height: 30px;
+		height: 30px;
 	}
 `; 
