@@ -37,7 +37,7 @@ export const ReviewsBlock = () => {
 	// Подвязываю слайдер к кнопкам
 	const handleNextClick = () => {
 		// Проверяем есть ли еще слайды сдвигаем вправо
-		if (iconMobileSlideIndex < reviews.length - 2) {
+		if (iconMobileSlideIndex < reviews.length - 1) {
 			setIconMobileSlideIndex((prev) => prev + 1);
 		}
 	};
@@ -126,15 +126,23 @@ export const ReviewsBlock = () => {
 					splideRef.current?.splide.go('<');
 					handlePrevClick();
 				}}
-        aria-label="Previous slide"
+        class="splide__arrow splide__arrow--prev"
+    		type="button"
+    		aria-label="Previous slide"
+    		aria-controls="splide01-track"
         style={{ background: 'none', border: 'none', cursor: 'pointer' }}
       >
         <img src={ArrowPrev} alt="Previous" width="25" height="40" />
       </ArrowPrevBtn>
+
       <ArrowNextBtn data-aos="zoom-in" data-aos-duration="1500"
         onClick={() => {splideRef.current?.splide.go('>');
-				handleNextClick();}}
-        aria-label="Next slide"
+				handleNextClick();
+			}}
+        className="splide__arrow splide__arrow--next"
+    		type="button"
+    		aria-label="Next slide"
+    		aria-controls="splide01-track"
         style={{ background: 'none', border: 'none', cursor: 'pointer' }}
       >
         <img src={ArrowNext} alt="Next" width="25" height="40" />
