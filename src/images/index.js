@@ -1,7 +1,7 @@
 import { ReactComponent as LogoIcon } from './Logo.svg';
 
 import WaveBg from './WaveBg.svg';
-import MainImg from './MainImg.png';
+import MainImg from './MainImg.webp';
 
 import { ReactComponent as Human } from './Human1.svg';
 import { ReactComponent as Phone } from './Phone2.svg';
@@ -17,9 +17,9 @@ import { ReactComponent as HowWeDo4 } from './HowWeDo/HowWeDo4.svg';
 import { ReactComponent as HowWeDo5 } from './HowWeDo/HowWeDo5.svg';
 import { ReactComponent as HowWeDo6 } from './HowWeDo/HowWeDo6.svg';
 
-import ProgramBg from './ProgramBg.png';
+import ProgramBg from './ProgramBg.webp';
 
-import TeacherImg from './TeacherImg.png';
+import TeacherImg from './TeacherImg.webp';
 import { ReactComponent as TeachersCheck } from './TeachersCheck.svg';
 
 import { ReactComponent as GuaranteeFireSvg } from './GuaranteeFireSvg.svg';
@@ -35,7 +35,7 @@ import { ReactComponent as Facebook } from './Review/Facebook.svg';
 import ArrowPrev from './Review/ArrowPrev.svg';
 import ArrowNext from './Review/ArrowNext.svg';
 
-import RegistrationBg from './RegistrationBg.png';
+import RegistrationBg from './RegistrationBg.webp';
 
 import { ReactComponent as FooterPhone } from './FooterPhone.svg';
 import { ReactComponent as FooterInstagram } from './FooterInstagram.svg';
