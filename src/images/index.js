@@ -3,7 +3,7 @@ import { ReactComponent as LogoIcon } from './Logo.svg';
 import WaveBg from './WaveBg.svg';
 import MainImg from './MainImg.webp';
 
-import { ReactComponent as Human } from './icomoon.svg/Human1';
+import { ReactComponent as Human } from './Human1.svg';
 import { ReactComponent as Phone } from './Phone2.svg';
 import { ReactComponent as Dolar } from './Dolar3.svg';
 
