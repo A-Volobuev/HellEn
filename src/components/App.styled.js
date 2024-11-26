@@ -1,4 +1,4 @@
- 
+import styled from '@emotion/styled';
 import { WaveBg } from "../images";
 
 export const MainBg = styled.div`
