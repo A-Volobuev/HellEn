@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/HellEn/static/css/main.69e2e034.css",
-    "main.js": "/HellEn/static/js/main.39a8163f.js",
+    "main.js": "/HellEn/static/js/main.e2156d0d.js",
     "static/media/RegistrationBg.webp": "/HellEn/static/media/RegistrationBg.d92f841d5df1445401cd.webp",
     "static/media/MainImg.webp": "/HellEn/static/media/MainImg.be631bfba87721b1bab8.webp",
     "static/media/ProgramBg.webp": "/HellEn/static/media/ProgramBg.ae67acf9328dc4cc0034.webp",
-    "static/media/Avatar06.png": "/HellEn/static/media/Avatar06.df31d8e8742fbfb6542f.png",
-    "static/media/Avatar02.png": "/HellEn/static/media/Avatar02.108b83e964f1975bc25f.png",
-    "static/media/Avatar04.png": "/HellEn/static/media/Avatar04.057d1e2965a1eddef518.png",
-    "static/media/Avatar05.png": "/HellEn/static/media/Avatar05.1b1ffe4ef33a973b34bb.png",
-    "static/media/Avatar01.png": "/HellEn/static/media/Avatar01.2e1b3cc079cf22259d67.png",
-    "static/media/Avatar03.png": "/HellEn/static/media/Avatar03.d77653c1395c243870f1.png",
-    "static/media/Avatar07.png": "/HellEn/static/media/Avatar07.030cc76332342fc43d1b.png",
     "static/media/TeacherImg.webp": "/HellEn/static/media/TeacherImg.c32dbe70b084028e64df.webp",
     "static/media/FooterInstagram.svg": "/HellEn/static/media/FooterInstagram.430abd849812de3b623908b3c6c4aab7.svg",
     "static/media/HowWeDo4.svg": "/HellEn/static/media/HowWeDo4.1a9196878670b61195df43d048f16449.svg",
+    "static/media/Avatar06.webp": "/HellEn/static/media/Avatar06.957ac0dcd1512d89303a.webp",
     "static/media/HowWeDo1.svg": "/HellEn/static/media/HowWeDo1.7aaff87335b4698ae4919c565eaab065.svg",
+    "static/media/Avatar02.webp": "/HellEn/static/media/Avatar02.8f6464244c83ef90898e.webp",
+    "static/media/Avatar04.webp": "/HellEn/static/media/Avatar04.c2bf96e4d317878e255c.webp",
+    "static/media/Avatar05.webp": "/HellEn/static/media/Avatar05.b04290ced0e31d63a6bd.webp",
+    "static/media/Avatar03.webp": "/HellEn/static/media/Avatar03.13c404fada95c0f47f56.webp",
+    "static/media/Avatar07.webp": "/HellEn/static/media/Avatar07.75e97ce87dcd416bf14c.webp",
     "static/media/Human1.svg": "/HellEn/static/media/Human1.4065349af8c42723d5bdd3af3021f32a.svg",
     "static/media/HowWeDo5.svg": "/HellEn/static/media/HowWeDo5.db6f004a1c53aa38a6b9aaa18d30c7fa.svg",
     "static/media/Dolar3.svg": "/HellEn/static/media/Dolar3.5cccf4900e218ef6baf4084be6487aa2.svg",
+    "static/media/Avatar01.webp": "/HellEn/static/media/Avatar01.0b52b8cb600edd732b54.webp",
     "static/media/Logo.svg": "/HellEn/static/media/Logo.ed8189a1051811b2c8d76091b04fa112.svg",
     "static/media/Phone2.svg": "/HellEn/static/media/Phone2.65d95637f5d37c72b937cd7e013d5ebc.svg",
     "static/media/BgFire.svg": "/HellEn/static/media/BgFire.3ee1d901175bec8e40a1ea418766ba5f.svg",
@@ -29,15 +29,15 @@
     "static/media/FooterPhone.svg": "/HellEn/static/media/FooterPhone.aef807bf9fd89540c4e47a521c5c381a.svg",
     "static/media/WaveBg.svg": "/HellEn/static/media/WaveBg.758a5c14589489cee32b07ec119161e7.svg",
     "index.html": "/HellEn/index.html",
-    "static/media/Facebook.svg": "/HellEn/static/media/Facebook.1ccc18927d7113536e8c3d365c920441.svg",
     "static/media/TeachersCheck.svg": "/HellEn/static/media/TeachersCheck.7a09f75011d92cadcd392dabd31f050b.svg",
-    "static/media/ArrowPrev.svg": "/HellEn/static/media/ArrowPrev.cd395e3110e3f056e9e3e82ac45ce6db.svg",
-    "static/media/ArrowNext.svg": "/HellEn/static/media/ArrowNext.7c15eca8994090b3943ebc53628b5b5a.svg",
+    "static/media/Facebook.svg": "/HellEn/static/media/Facebook.ffcb53155b5687dd18c8d086ba082713.svg",
+    "static/media/ArrowPrev.svg": "/HellEn/static/media/ArrowPrev.7ed07afdbbfe88ece876b0df28568022.svg",
+    "static/media/ArrowNext.svg": "/HellEn/static/media/ArrowNext.d9fab158b6ba200162a576a3f5e3b872.svg",
     "main.69e2e034.css.map": "/HellEn/static/css/main.69e2e034.css.map",
-    "main.39a8163f.js.map": "/HellEn/static/js/main.39a8163f.js.map"
+    "main.e2156d0d.js.map": "/HellEn/static/js/main.e2156d0d.js.map"
   },
   "entrypoints": [
     "static/css/main.69e2e034.css",
-    "static/js/main.39a8163f.js"
+    "static/js/main.e2156d0d.js"
   ]
 }
