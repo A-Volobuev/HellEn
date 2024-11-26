@@ -1,30 +1,30 @@
 import styled from '@emotion/styled';
 import { SplideSlide, Splide } from '@splidejs/react-splide';
 import {Facebook} from '../../images';
-import { keyframes } from "@emotion/react";
+// import { keyframes } from "@emotion/react";
 // Анимация
-const arrowHoverR = keyframes`
-	0% {
-		transform: translateX(0);
-    }
-    50% {
-		transform: translateX(-10px);
-    }
-    100% {
-		transform: translateX(0);
-    }
-`;
-const arrowHoverL = keyframes`
-	0% {
-		transform: translateX(0);
-    }
-    50% {
-		transform: translateX(10px);
-    }
-    100% {
-		transform: translateX(0);
-    }
-`;
+// const arrowHoverR = keyframes`
+// 	0% {
+// 		transform: translateX(0);
+//     }
+//     50% {
+// 		transform: translateX(-10px);
+//     }
+//     100% {
+// 		transform: translateX(0);
+//     }
+// `;
+// const arrowHoverL = keyframes`
+// 	0% {
+// 		transform: translateX(0);
+//     }
+//     50% {
+// 		transform: translateX(10px);
+//     }
+//     100% {
+// 		transform: translateX(0);
+//     }
+// `;
 // Стили
 export const Box = styled.div`
 	margin-top: 130px;
@@ -225,9 +225,7 @@ export const ArrowPrevBtn = styled.button`
 	border: none;
 	left: 0;
 
-	&:hover{
-		animation: ${arrowHoverL} 1s linear infinite;
-	}
+
 
 	@media(min-width: 581.9px){
 		top: 52%;
@@ -245,9 +243,6 @@ export const ArrowNextBtn = styled.button`
 	border: none;
 	right:0;
 
-	&:hover{
-		animation: ${arrowHoverR} 1s linear infinite;
-	}
 
 	@media(min-width: 581.9px){
 		top: 52%;

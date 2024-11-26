@@ -121,24 +121,28 @@ export const ReviewsBlock = () => {
       </PaginationCustom>
 
 	{/* Стрелки */}
-			<ArrowPrevBtn data-aos="zoom-in" data-aos-duration="1500"
+			<ArrowPrevBtn
         onClick={() => {
 					splideRef.current?.splide.go('<');
 					handlePrevClick();
 				}}
-    		type="button"
-    		aria-label="Previous slide"
+				className="splide__arrow splide__arrow--prev"
+				type="button"
+				aria-label="Previous slide"
+				aria-controls="splide01-track"
         style={{ background: 'none', border: 'none', cursor: 'pointer' }}
       >
         <img src={ArrowPrev} alt="Previous" width="25" height="40" />
       </ArrowPrevBtn>
 
-      <ArrowNextBtn data-aos="zoom-in" data-aos-duration="1500"
+      <ArrowNextBtn 
         onClick={() => {splideRef.current?.splide.go('>');
 				handleNextClick();
 			}}
-    		type="button"
-    		aria-label="Next slide"
+			className="splide__arrow splide__arrow--next"
+			type="button"
+			aria-label="Next slide"
+			aria-controls="splide01-track"
         style={{ background: 'none', border: 'none', cursor: 'pointer' }}
       >
         <img src={ArrowNext} alt="Next" width="25" height="40" />
