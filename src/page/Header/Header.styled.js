@@ -96,7 +96,7 @@ export const HeaderMenu = styled.nav`
     top: -30px;
     left: -40px;
     right: ${({ open }) => (open ? "0" : "-100%")};
-    height: 110vh;
+    height: 113vh;
     width: calc(100% + 80px);
     flex-direction: column;
     align-items: center;
