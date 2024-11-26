@@ -4,7 +4,7 @@ export const HowWeDoBlock = () => {
 
 	return(
 		<Box id="HowWeDo">
-			<Title data-aos="zoom-in-down" data-aos-easing="linear" >How do we do it</Title>
+			<Title >How do we do it</Title>
  
 			<CardList>
 				<Card data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">

@@ -5,7 +5,7 @@ export const TeacherBlock = () => {
 
 	return (
 		<Box id="Teacher">
-		<Title data-aos="fade-right">Teacher</Title>
+		<Title>Teacher</Title>
 
 		<AboutTeacherBox>
 			<Img src={TeacherImg}  data-aos="fade-right" data-aos-duration="1500"/> 

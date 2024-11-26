@@ -45,11 +45,11 @@ export const RegistrationBlock = () => {
   return (
     <BgBox>
       <Box id="Registration" data-aos="zoom-in">
-        <Title data-aos="zoom-in" data-aos-duration="1500">
+        <Title >
           Registration for a <span>free</span> phone <span>consultation</span> on the nuances of
           English UPE
         </Title>
-        <SubTitle data-aos="zoom-in" data-aos-duration="1500">
+        <SubTitle >
           Leave a request for participation in a <span>free lesson</span>.
           <br /> A consultant will contact you and answer your questions.
         </SubTitle>
@@ -69,7 +69,7 @@ export const RegistrationBlock = () => {
               <ComponentsBox>
                 <InputBox>
                   {/* Поле имени */}
-                  <InputField data-aos="zoom-up" data-aos-duration="1500"
+                  <InputField 
                     id="name"
                     name="name"
                     type="text"
@@ -82,7 +82,7 @@ export const RegistrationBlock = () => {
                 </InputBox>
                 <InputBox>
                   {/* Поле номера телефона */}
-                  <InputField data-aos="zoom-up" data-aos-duration="1500"
+                  <InputField 
                     id="number"
                     name="number"
                     type="tel"

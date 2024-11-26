@@ -49,7 +49,7 @@ export const ReviewsBlock = () => {
 	};
 	return(
 		<Box>
-			<Title data-aos="zoom-in" data-aos-duration="1500">Feedback from graduates</Title>
+			<Title>Feedback from graduates</Title>
 
 
 			<SplideCustom aria-label="Reviews" data-aos="zoom-in-up" data-aos-duration="1500"

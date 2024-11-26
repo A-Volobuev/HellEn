@@ -4,7 +4,7 @@ export const GuaranteeBlock = () => {
 
 	return(
 		<Box>
-			<Title data-aos="fade-up" data-aos-duration="1500">We guarantee</Title>
+			<Title >We guarantee</Title>
 			
 			<EdgeBox>
 				<EdgeItem data-aos="fade-right" data-aos-duration="1500"> 

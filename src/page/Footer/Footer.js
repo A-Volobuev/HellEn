@@ -6,7 +6,7 @@ export const FooterBlock = () => {
 	return(
 		<>
 			<Box>
-				<FooterContacts data-aos="fade-up" data-aos-easing="linear">
+				<FooterContacts>
 				<Logo/>
 					<Contacts>
 						<PhoneBox>

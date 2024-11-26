@@ -18,7 +18,7 @@ export const ProgramBlock = () => {
 
 	return(
 		<Box id="Program">
-			<Title data-aos="zoom-in-up">Our program</Title>
+			<Title >Our program</Title>
 			<Line/>
 			<CardList>
 
@@ -116,7 +116,7 @@ export const ProgramBlock = () => {
 			</CardList>
 
 			{isVisibleTitle && <VisibleTitle>Why do people choose us</VisibleTitle>}
-			<BgImg src={ProgramBg} data-aos="zoom-in"/>
+			<BgImg src={ProgramBg} />
 
 			<EdgeBlockProgram/>
 		</Box>
