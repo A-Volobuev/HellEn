@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/HellEn/static/css/main.69e2e034.css",
-    "main.js": "/HellEn/static/js/main.5d2effb9.js",
-    "static/media/RegistrationBg.png": "/HellEn/static/media/RegistrationBg.8c3d37cb70b2e4f06e96.png",
-    "static/media/MainImg.png": "/HellEn/static/media/MainImg.2f833b6ed8514c6627ed.png",
-    "static/media/TeacherImg.png": "/HellEn/static/media/TeacherImg.e55666460460bd8ec3cb.png",
-    "static/media/ProgramBg.png": "/HellEn/static/media/ProgramBg.6af458a39f2f2a6ef038.png",
+    "main.js": "/HellEn/static/js/main.39a8163f.js",
+    "static/media/RegistrationBg.webp": "/HellEn/static/media/RegistrationBg.d92f841d5df1445401cd.webp",
+    "static/media/MainImg.webp": "/HellEn/static/media/MainImg.be631bfba87721b1bab8.webp",
+    "static/media/ProgramBg.webp": "/HellEn/static/media/ProgramBg.ae67acf9328dc4cc0034.webp",
     "static/media/Avatar06.png": "/HellEn/static/media/Avatar06.df31d8e8742fbfb6542f.png",
     "static/media/Avatar02.png": "/HellEn/static/media/Avatar02.108b83e964f1975bc25f.png",
     "static/media/Avatar04.png": "/HellEn/static/media/Avatar04.057d1e2965a1eddef518.png",
@@ -13,6 +12,7 @@
     "static/media/Avatar01.png": "/HellEn/static/media/Avatar01.2e1b3cc079cf22259d67.png",
     "static/media/Avatar03.png": "/HellEn/static/media/Avatar03.d77653c1395c243870f1.png",
     "static/media/Avatar07.png": "/HellEn/static/media/Avatar07.030cc76332342fc43d1b.png",
+    "static/media/TeacherImg.webp": "/HellEn/static/media/TeacherImg.c32dbe70b084028e64df.webp",
     "static/media/FooterInstagram.svg": "/HellEn/static/media/FooterInstagram.430abd849812de3b623908b3c6c4aab7.svg",
     "static/media/HowWeDo4.svg": "/HellEn/static/media/HowWeDo4.1a9196878670b61195df43d048f16449.svg",
     "static/media/HowWeDo1.svg": "/HellEn/static/media/HowWeDo1.7aaff87335b4698ae4919c565eaab065.svg",
@@ -34,10 +34,10 @@
     "static/media/ArrowPrev.svg": "/HellEn/static/media/ArrowPrev.cd395e3110e3f056e9e3e82ac45ce6db.svg",
     "static/media/ArrowNext.svg": "/HellEn/static/media/ArrowNext.7c15eca8994090b3943ebc53628b5b5a.svg",
     "main.69e2e034.css.map": "/HellEn/static/css/main.69e2e034.css.map",
-    "main.5d2effb9.js.map": "/HellEn/static/js/main.5d2effb9.js.map"
+    "main.39a8163f.js.map": "/HellEn/static/js/main.39a8163f.js.map"
   },
   "entrypoints": [
     "static/css/main.69e2e034.css",
-    "static/js/main.5d2effb9.js"
+    "static/js/main.39a8163f.js"
   ]
 }
