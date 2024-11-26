@@ -4,7 +4,7 @@ import {TeacherImg} from '../../images';
 export const TeacherBlock = () => {
 
 	return (
-		<Box>
+		<Box id="Teacher">
 		<Title data-aos="fade-right">Teacher</Title>
 
 		<AboutTeacherBox>

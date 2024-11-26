@@ -30,16 +30,16 @@ export const HeaderBlock = ({toggleModal, open}) => {
 					<HeaderMenu open={openMenu}>
 						<HeaderList>
 							<HeaderItem>
-								<HeaderLink href="#">Studying program</HeaderLink>
+								<HeaderLink href="#Program">Studying program</HeaderLink>
 							</HeaderItem>
 							<HeaderItem>
-								<HeaderLink href="#">About</HeaderLink>
+								<HeaderLink href="#HowWeDo">About</HeaderLink>
 							</HeaderItem>
 							<HeaderItem>
-								<HeaderLink href="#">training options</HeaderLink>
+								<HeaderLink href="#Teacher">training options</HeaderLink>
 							</HeaderItem>
 							<HeaderItem>
-								<HeaderLink href="#">contacts</HeaderLink>
+								<HeaderLink href="#Registration">contacts</HeaderLink>
 							</HeaderItem>
 						</HeaderList>
 					</HeaderMenu>

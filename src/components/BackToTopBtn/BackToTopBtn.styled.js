@@ -14,8 +14,8 @@ export const Button = styled.button`
 		background-color: #FF6B09;
 	}
 	@media(max-width: 768.9px) {
-		width: 25px;
-		height: 25px;
+		width: 20px;
+		height: 20px;
 	}
 `;
 export const Svg = styled(IoIosArrowDropupCircle)`

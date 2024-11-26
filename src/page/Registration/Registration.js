@@ -44,7 +44,7 @@ const formatPhoneNumber = (value) => {
 export const RegistrationBlock = () => {
   return (
     <BgBox>
-      <Box data-aos="zoom-in">
+      <Box id="Registration" data-aos="zoom-in">
         <Title data-aos="zoom-in" data-aos-duration="1500">
           Registration for a <span>free</span> phone <span>consultation</span> on the nuances of
           English UPE

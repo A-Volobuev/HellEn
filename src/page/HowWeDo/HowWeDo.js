@@ -3,7 +3,7 @@ import { Box, Card, CardList, CardTitle, Svg1, Svg2, Svg3, Svg4, Svg5, Svg6, Svg
 export const HowWeDoBlock = () => {
 
 	return(
-		<Box>
+		<Box id="HowWeDo">
 			<Title data-aos="zoom-in-down" data-aos-easing="linear" >How do we do it</Title>
  
 			<CardList>

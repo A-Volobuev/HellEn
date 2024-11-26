@@ -17,7 +17,7 @@ export const ProgramBlock = () => {
 		}, []);
 
 	return(
-		<Box>
+		<Box id="Program">
 			<Title data-aos="zoom-in-up">Our program</Title>
 			<Line/>
 			<CardList>
