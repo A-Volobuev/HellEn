@@ -126,7 +126,6 @@ export const ReviewsBlock = () => {
 					splideRef.current?.splide.go('<');
 					handlePrevClick();
 				}}
-        class="splide__arrow splide__arrow--prev"
     		type="button"
     		aria-label="Previous slide"
     		aria-controls="splide01-track"
@@ -139,7 +138,6 @@ export const ReviewsBlock = () => {
         onClick={() => {splideRef.current?.splide.go('>');
 				handleNextClick();
 			}}
-        className="splide__arrow splide__arrow--next"
     		type="button"
     		aria-label="Next slide"
     		aria-controls="splide01-track"
