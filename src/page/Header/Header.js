@@ -15,6 +15,12 @@ export const HeaderBlock = ({toggleModal, open}) => {
     }
   }; 
 
+	// Что бы при клике на линк в моб приложении возвращался скролл и закрывалось бургер меню
+	const mobileMenuClose = () => {
+		setOpenMenu(false);
+		document.documentElement.style.overflow = "";
+	}
+
 	
 	return(
 		<HeaderBox>
@@ -30,16 +36,16 @@ export const HeaderBlock = ({toggleModal, open}) => {
 					<HeaderMenu open={openMenu}>
 						<HeaderList>
 							<HeaderItem>
-								<HeaderLink href="#Program" onClick={toggleMenu}>Studying program</HeaderLink>
+								<HeaderLink href="#Program" onClick={mobileMenuClose}>Studying program</HeaderLink>
 							</HeaderItem>
 							<HeaderItem>
-								<HeaderLink href="#HowWeDo"  onClick={toggleMenu}>About</HeaderLink>
+								<HeaderLink href="#HowWeDo"  onClick={mobileMenuClose}>About</HeaderLink>
 							</HeaderItem>
 							<HeaderItem>
-								<HeaderLink href="#Teacher"  onClick={toggleMenu}>training options</HeaderLink>
+								<HeaderLink href="#Teacher"  onClick={mobileMenuClose}>training options</HeaderLink>
 							</HeaderItem>
 							<HeaderItem>
-								<HeaderLink href="#Registration"  onClick={toggleMenu}>contacts</HeaderLink>
+								<HeaderLink href="#Registration"  onClick={mobileMenuClose}>contacts</HeaderLink>
 							</HeaderItem>
 						</HeaderList>
 					</HeaderMenu>
