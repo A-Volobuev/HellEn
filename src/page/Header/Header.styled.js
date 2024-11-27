@@ -110,6 +110,7 @@ export const HeaderMenu = styled.nav`
   @media (max-width: 580px) {
     align-items: flex-start;
     left: -20px;
+    width: calc(100% + 40px);
   }
 `;
 export const HeaderList = styled.ul`
