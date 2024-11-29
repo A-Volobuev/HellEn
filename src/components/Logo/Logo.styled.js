@@ -15,7 +15,7 @@ export const LogoBox = styled.div`
 `;
 export const LogoTitle = styled.span`
 	font-size: ${(props) => props.theme.fontSizes.Logo};
-	color: ${({ open }) => (open ? "#FFF" : "#111518")};
+	color: ${({ open, scroll }) => (open ? "#FFF" : scroll? "#FFF" : "#111518")};
 	font-weight: ${(props) => props.theme.fontWeights.l};
 	letter-spacing: ${(props) => props.theme.letterSpacing.s};
 	z-index:10;
@@ -30,7 +30,7 @@ export const LogoTitle = styled.span`
 `;
 export const LogoSubTitle = styled.span`
 	font-size: ${(props) => props.theme.fontSizes.xs};
-	color: ${({ open }) => (open ? "#FFF" : "#111518")};
+	color: ${({ open, scroll }) => (open ? "#FFF" : scroll? "#FFF" : "#111518")};
 	font-weight: ${(props) => props.theme.fontWeights.m};
 	text-transform: uppercase;
 	z-index:10; 

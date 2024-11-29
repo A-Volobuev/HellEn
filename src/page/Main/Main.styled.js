@@ -1,17 +1,17 @@
 import styled from '@emotion/styled';
 
-export const MainBox = styled.main`
+export const MainBox = styled.section`
   display: flex;
-  margin-top: 30px;
+  margin-top: 130px;
   gap: 50px;
 
   @media (max-width: 1160px){
-    margin-top: 70px;
+    margin-top: 158px;
     gap: 18px;
     justify-content: space-between;
   } 
   @media (max-width: 768px) {
-    margin-top: 30px;
+    margin-top: 90px;
   }
   @media (max-width: 650px) {
     flex-direction: column;
@@ -97,7 +97,7 @@ export const Img = styled.img`
   max-width: 55%;
   max-height: 718px;
   position: relative;
-  right: -77px;
+  right: -44px;
 
   z-index: -1;
   @media (max-width: 1260px){
@@ -120,7 +120,7 @@ export const Button = styled.button`
 	width: 354px;
 	height: 70px;
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 600;
 	letter-spacing: 0.14em;
 	text-transform: uppercase;
 	color:  #FFF;
@@ -138,11 +138,12 @@ export const Button = styled.button`
 	height: 48px;
 }
 
-	transition: transform 0.5s ease, border-radius 0.5s ease, box-shadow 0.5s ease; 
-&:hover{
-	cursor: pointer;
-	transform: scale(1.1);
-	border-radius: 8px;
-	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
-}
+  @media(min-width: 1280.9px) {
+		transition: transform 0.5s ease, box-shadow 0.5s ease; 
+		&:hover{
+			cursor: pointer;
+			transform: scale(1.1);
+			box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+		}
+	}
 `;

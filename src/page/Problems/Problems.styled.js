@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 import { BgFire } from "../../images";
 
-export const ContentBox = styled.div`
+export const ContentBox = styled.section`
 	margin-top: 130px;
 	width: 100%;
 	height: 560px;

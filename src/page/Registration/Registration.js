@@ -1,8 +1,9 @@
-import { BgBox, Box, ComponentsBox, FormBox, HelpText, InputBox, InputField, SubTitle, Title } from "./Registration.styled";
 import React  from 'react';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
+import { BgBox, Box, ComponentsBox, FormBox, HelpText, InputBox, InputField, SubTitle, Title } from "./Registration.styled";
 import { Button } from "../../components/Button/Button.styled";
+import './Registration.css';
 
 let schema = Yup.object().shape({
   name: Yup.string()

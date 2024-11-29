@@ -1,15 +1,15 @@
 import { LogoBox, LogoImg, LogoSubTitle, LogoTitle } from "./Logo.styled"
 
-export const Logo = ({open}) => {
+export const Logo = ({open, scroll}) => {
 	return(
 		<LogoBox>
 				<div>
-					<LogoTitle open={open}>Hell</LogoTitle>
+					<LogoTitle open={open} scroll={scroll}>Hell</LogoTitle>
 					<LogoImg/>
-					<LogoTitle open={open}>EN</LogoTitle>
+					<LogoTitle open={open} scroll={scroll}>EN</LogoTitle>
 				</div>
 
-				<LogoSubTitle open={open}> <span>hellish</span> english</LogoSubTitle>
+				<LogoSubTitle open={open} scroll={scroll}> <span>hellish</span> english</LogoSubTitle>
 		</LogoBox>
 	) 
 } 

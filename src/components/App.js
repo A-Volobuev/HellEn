@@ -8,16 +8,18 @@ import {BackToTopBtn} from './'
 function App() {
   AOS.init({ 
 		duration: 1000, // Длительность анимации
-  	offset: 100,
+  	offset: 10,
 	});
   const [open, setOpen] = useState(false);
   const toggleModal = () => setOpen((prev) => !prev);
 
-  return (
+  return ( 
     <>
     <MainBg/>
-      <Box>
-        <HeaderBlock toggleModal={toggleModal} open={open}/>
+    <HeaderBlock toggleModal={toggleModal} open={open}/>
+    <main>
+    <Box>
+        
         <MainBlock toggleModal={toggleModal} open={open}/>
         
         <AdvantagesBlock/>
@@ -39,6 +41,7 @@ function App() {
 
       <RegistrationBlock/>
 
+    </main>
       <FooterBlock/>
 
       <BackToTopBtn/>

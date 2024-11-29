@@ -1,8 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: 'Montserrat';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
 }
 
 code {

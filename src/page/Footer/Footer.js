@@ -4,7 +4,7 @@ import { Box, Contacts, FooterContacts, InstLink, PhoneBox, PhoneSvgBox, PhoneTe
 export const FooterBlock = () => {
 
 	return(
-		<>
+		<footer>
 			<Box>
 				<FooterContacts>
 				<Logo/>
@@ -25,6 +25,6 @@ export const FooterBlock = () => {
 			<RightBox>
 				<Text>© All rights reserved, 2022</Text>
 			</RightBox>
-		</>
+		</footer>
 	)
 }

@@ -26,7 +26,7 @@ import {Facebook} from '../../images';
 //     }
 // `;
 // Стили
-export const Box = styled.div`
+export const Box = styled.section`
 	margin-top: 130px;
 	position: relative;
 
@@ -153,13 +153,22 @@ export const SplideText = styled.p`
 
 	color: #3D3D3D;
 
+	/* Обрезаем текст */
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 5;
+
 	@media(max-width: 990.9px){
 		font-size: 12px;
 		margin-top: 20px;
+		-webkit-line-clamp: 7;
 	}
 	@media(max-width: 580.9px){
 		margin-top: 16px;
 		text-align: center;
+		-webkit-line-clamp: 10;
 	}
 `; 
 export const SplideLink = styled.a`
@@ -231,10 +240,19 @@ export const ArrowPrevBtn = styled.button`
 		top: 52%;
 	}
 	@media(max-width: 580.9px){
-		bottom: 0px;
+		transform: translateY(235px);
 	}
-	@media(max-width: 500.9px){
-		bottom: 6px;
+	@media(max-width: 480.9px){
+		transform: translateY(245px);
+	}
+	@media(max-width: 410.9px){
+		transform: translateY(273px);
+	}
+	@media(max-width: 380.9px){
+		transform: translateY(285px);
+	}
+	@media(max-width: 350.9px){
+		transform: translateY(298px);
 	}
 `;
 export const ArrowNextBtn = styled.button`
@@ -248,10 +266,19 @@ export const ArrowNextBtn = styled.button`
 		top: 52%;
 	}
 	@media(max-width: 580.9px){
-		bottom: 0px;
+		transform: translateY(235px);
 	}
-	@media(max-width: 500.9px){
-		bottom: 6px;
+	@media(max-width: 480.9px){
+		transform: translateY(245px);
+	}
+	@media(max-width: 410.9px){
+		transform: translateY(273px);
+	}
+	@media(max-width: 380.9px){
+		transform: translateY(285px);
+	}
+	@media(max-width: 350.9px){
+		transform: translateY(298px);
 	}
 `;
 

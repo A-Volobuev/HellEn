@@ -37,7 +37,7 @@ export const ReviewsBlock = () => {
 	// Подвязываю слайдер к кнопкам
 	const handleNextClick = () => {
 		// Проверяем есть ли еще слайды сдвигаем вправо
-		if (iconMobileSlideIndex < reviews.length - 1) {
+		if (iconMobileSlideIndex < reviews.length - 2) {
 			setIconMobileSlideIndex((prev) => prev + 1);
 		}
 	};

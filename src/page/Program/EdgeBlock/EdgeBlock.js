@@ -1,34 +1,28 @@
-import { Box, ItemList, Text, Title } from "./EdgeBlock.styled"
+import { Box, Text } from "./EdgeBlock.styled"
 
 
 export const EdgeBlockProgram = () => {
 
 	return(
 		<Box data-aos="fade-up" data-aos-easing="linear">
-			<ItemList >
-				<Title>— 01</Title>
+			<li >
 				<Text>Training in small groups</Text>
-			</ItemList>
-			<ItemList > 
-				<Title>— 02</Title>
+			</li>
+			<li > 
 				<Text>Rendered notes</Text>
-			</ItemList>
-			<ItemList >
-				<Title>— 03</Title>
+			</li>
+			<li >
 				<Text>Each lesson has a goal and a specific result</Text>
-			</ItemList>
-			<ItemList >
-				<Title>— 04</Title>
+			</li>
+			<li >
 				<Text>The real results of the teacher</Text>
-			</ItemList>
-			<ItemList >
-				<Title>— 05</Title>
+			</li>
+			<li >
 				<Text>The course program meets the requirements of the MES of Ukraine</Text>
-			</ItemList>
-			<ItemList >
-				<Title>— 06</Title>
+			</li>
+			<li >
 				<Text>Set of groups by level of knowledge</Text>
-			</ItemList>
+			</li>
 		</Box>
-	)
+	) 
 }

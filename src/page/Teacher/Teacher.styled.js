@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
-import {TeachersCheck} from '../../images';
+// import {TeachersCheck} from '../../images';
 
-export const Box = styled.div`
+export const Box = styled.section`
 	margin-top: 324px;
 	width: 100%;
 
@@ -9,7 +9,7 @@ export const Box = styled.div`
 		margin-top: 295px;
 	}
 	@media(max-width: 320.9px) {
-		margin-top: 308px;
+		margin-top: 308px; 
 	}
 `;
 export const Title = styled.h2`
@@ -78,65 +78,6 @@ export const SubTitle = styled.h3`
 		width: 100%;
 		border-bottom:1px solid #B9B9B9;
 		margin-top: 15px;
-	}
-`;
-export const EdgeList = styled.div`
-	display: flex;
-	flex-direction: column;
-	gap: 30px;
-	margin-top: 30px;
-
-	&::after{
-		content: '';
-		display: block;
-		width: 20px;
-		border-bottom:2px solid #FF6B09;
-		margin-top: 13px;
-	}
-
-	@media(max-width: 1090.9px){
-		margin-top: 20px;
-		gap: 20px;
-
-		&::after{
-			margin-top: 10px;
-		}
-	}
-`;
-export const EdgeItem = styled.div`
-	display: flex;
-	gap: 34px;
-
-	@media(max-width: 1090.9px) {
-		gap: 10px;
-	}
-`;
-export const SvgBox = styled.div`
-	width: 25px;
-	height: 20px;
-
-	@media(max-width: 1090.9px){
-		width: 18px;
-		height: 14px;
-	}
-`;
-export const TeacherCheck = styled(TeachersCheck)`
-@media(max-width: 1090.9px){
-		width: 18px;
-		height: 14px;
-	}
-`;
-export const EdgeText = styled.p`
-	margin: 0px;
-
-	font-size: 16px;
-	font-weight: 600;
-	letter-spacing: 0.06em;
-
-	color: #111518;
-
-	@media(max-width: 1090.9px){
-		font-size: 12px;
 	}
 `;
 export const TextBox = styled.div`
@@ -211,3 +152,121 @@ export const DetailLink = styled.a`
 		transform: scaleX(1);
 	}
 `;
+
+
+
+export const EdgeList = styled.ul`
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	margin-top: 30px;
+	padding: 0px;
+
+	&::after{
+		content: '';
+		display: block;
+		width: 20px;
+		border-bottom:2px solid #FF6B09;
+		margin-top: 13px;
+	}
+
+	@media(max-width: 1090.9px){
+		margin-top: 20px;
+		gap: 20px;
+
+		&::after{
+			margin-top: 10px;
+		}
+	}
+`;
+export const EdgeItem = styled.li`
+	display: flex;
+	gap: 34px;
+
+	@media(max-width: 1090.9px) {
+		gap: 10px;
+
+		img{
+			width: 18px;
+			height: 14px;
+		}
+	}
+`;
+export const EdgeText = styled.p`
+	margin: 0px;
+
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0.06em;
+
+	color: #111518;
+
+	@media(max-width: 1090.9px){
+		font-size: 12px;
+	}
+`;
+
+
+
+
+
+
+// export const EdgeList = styled.div`
+// 	display: flex;
+// 	flex-direction: column;
+// 	gap: 30px;
+// 	margin-top: 30px;
+
+// 	&::after{
+// 		content: '';
+// 		display: block;
+// 		width: 20px;
+// 		border-bottom:2px solid #FF6B09;
+// 		margin-top: 13px;
+// 	}
+
+// 	@media(max-width: 1090.9px){
+// 		margin-top: 20px;
+// 		gap: 20px;
+
+// 		&::after{
+// 			margin-top: 10px;
+// 		}
+// 	}
+// `;
+// export const EdgeItem = styled.div`
+// 	display: flex;
+// 	gap: 34px;
+
+// 	@media(max-width: 1090.9px) {
+// 		gap: 10px;
+// 	}
+// `;
+// export const SvgBox = styled.div`
+// 	width: 25px;
+// 	height: 20px;
+
+// 	@media(max-width: 1090.9px){
+// 		width: 18px;
+// 		height: 14px;
+// 	}
+// `;
+// export const TeacherCheck = styled(TeachersCheck)`
+// @media(max-width: 1090.9px){
+// 		width: 18px;
+// 		height: 14px;
+// 	}
+// `;
+// export const EdgeText = styled.p`
+// 	margin: 0px;
+
+// 	font-size: 16px;
+// 	font-weight: 600;
+// 	letter-spacing: 0.06em;
+
+// 	color: #111518;
+
+// 	@media(max-width: 1090.9px){
+// 		font-size: 12px;
+// 	}
+// `;

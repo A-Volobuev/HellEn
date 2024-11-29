@@ -1,5 +1,5 @@
-import { AboutTeacherBox, Box, DetailLink, EdgeItem, EdgeList, EdgeText, Img, OverviewBox, SubTitle, SvgBox, TeacherCheck, Text, TextBox, Title } from "./Teacher.styled";
-import {TeacherImg} from '../../images';
+import { AboutTeacherBox, Box, DetailLink, EdgeItem, EdgeList, EdgeText, Img, OverviewBox, SubTitle, Text, TextBox, Title } from "./Teacher.styled";
+import {TeacherImg, TeachersCheckImg} from '../../images';
 
 export const TeacherBlock = () => {
 
@@ -9,33 +9,34 @@ export const TeacherBlock = () => {
 
 		<AboutTeacherBox>
 			<Img src={TeacherImg}  data-aos="fade-right" data-aos-duration="1500"/> 
-			<OverviewBox>
+			<OverviewBox> 
 				<SubTitle data-aos="fade-up">Elena Moreva</SubTitle>
 				
 				<EdgeList data-aos="fade-up" data-aos-duration="1500">
 					<EdgeItem data-aos="fade-up" data-aos-duration="1500">
-						<SvgBox>
+						{/* <SvgBox>
 							<TeacherCheck/>
-						</SvgBox>
+						</SvgBox> */}
+						<img src={TeachersCheckImg} alt="Check"></img>
 						<EdgeText>6 yeards of experience in preparing students for UPE</EdgeText>
 					</EdgeItem>
 
 					<EdgeItem data-aos="fade-up" data-aos-duration="1500">
-						<SvgBox>
+						{/* <SvgBox>
 							<TeacherCheck/>
-						</SvgBox>
+						</SvgBox> */}
+						<img src={TeachersCheckImg} alt="Check"></img>
 						<EdgeText>Own result of passing VNO - 197 points 2 years in a row</EdgeText>
 					</EdgeItem>
 
 					<EdgeItem data-aos="fade-up" data-aos-duration="1500">
-						<SvgBox>
+						{/* <SvgBox>
 							<TeacherCheck/>
-						</SvgBox>
+						</SvgBox> */}
+						<img src={TeachersCheckImg} alt="Check"></img>
 						<EdgeText>Passed excellent at the international analogue of UPE - Cambridge PET (Preliminary English Test)</EdgeText>
 					</EdgeItem>
 				</EdgeList>
-
-				
 
 				<TextBox>
 					<Text data-aos="fade-up" data-aos-duration="1500">Graduated from the Institute of International Relations of the NAU with a degree in translator-analyst.</Text>

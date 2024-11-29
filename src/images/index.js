@@ -21,8 +21,10 @@ import ProgramBg from './ProgramBg.webp';
 
 import TeacherImg from './TeacherImg.webp';
 import { ReactComponent as TeachersCheck } from './TeachersCheck.svg';
+import TeachersCheckImg from './TeachersCheck.svg';
 
 import { ReactComponent as GuaranteeFireSvg } from './GuaranteeFireSvg.svg';
+import GuaranteeFireImg from './GuaranteeFireSvg.svg';
 
 import Avatar01 from './Review/Avatar01.webp';
 import Avatar02 from './Review/Avatar02.webp';
@@ -40,4 +42,4 @@ import RegistrationBg from './RegistrationBg.webp';
 import { ReactComponent as FooterPhone } from './FooterPhone.svg';
 import { ReactComponent as FooterInstagram } from './FooterInstagram.svg';
 
-export {LogoIcon, WaveBg, MainImg, Human, Phone, Dolar, BgFire, HowWeDo1, HowWeDo2, HowWeDo3, HowWeDo4, HowWeDo5, HowWeDo6, ProgramBg, TeacherImg, TeachersCheck, GuaranteeFireSvg, Avatar01, Avatar02, Avatar03, Avatar04, Avatar05, Avatar06, Avatar07, Facebook, ArrowPrev, ArrowNext, RegistrationBg, FooterInstagram, FooterPhone};
+export {LogoIcon, WaveBg, MainImg, Human, Phone, Dolar, BgFire, HowWeDo1, HowWeDo2, HowWeDo3, HowWeDo4, HowWeDo5, HowWeDo6, ProgramBg, TeacherImg, TeachersCheck, GuaranteeFireSvg, Avatar01, Avatar02, Avatar03, Avatar04, Avatar05, Avatar06, Avatar07, Facebook, ArrowPrev, ArrowNext, RegistrationBg, FooterInstagram, FooterPhone, TeachersCheckImg, GuaranteeFireImg};

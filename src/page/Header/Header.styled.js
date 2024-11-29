@@ -1,11 +1,21 @@
 import styled from '@emotion/styled';
 
 export const HeaderBox = styled.header`
+  position: fixed;
+  top: 0; 
+  left: 0;
+  /* padding-left: 40px;
 	padding-top: 30px; 
+  padding-bottom: 30px;  */
+  padding: 30px 40px;
+  z-index: 2;
 	width: 100%;
 	display: flex;
 	align-items: center;
 	height: 30px;
+
+  background-color: ${({ scroll }) => (scroll ? "rgba(25, 28, 38, .4)" : "")};
+  backdrop-filter: ${({ scroll }) => (scroll ? "blur(6px)" : "")};
 
 	@media(min-width: 1680px){
 		height: 70px;
@@ -13,19 +23,33 @@ export const HeaderBox = styled.header`
 	@media(min-width: 768px){
 		height: 48px;
 	}
+  @media(max-width: 1160.9px){
+    padding: 40px 40px;
+	}
+  @media(max-width: 767.9px){
+    padding: 30px 20px;
+	}
 `;
 export const HeaderBody = styled.div`
-width: 100%;
+  width: calc(100% - 81px);
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 
 	position: relative;
-`;
 
+  @media(max-width: 767.9px) {
+    width: calc(100% - 41px);
+  }
+`;
+export const Box = styled.div`
+  width: calc(100% - 81px);
+`;
 export const HeaderBurger = styled.div`
   position: relative;
   width: 21px;
+  height: 12px;
+  overflow: visible;
   
 
   transition: transform 0.5s ease; 
@@ -39,7 +63,7 @@ export const HeaderBurger = styled.div`
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: ${({ open }) => (open ? "transparent" : "#000000")};
+    background-color: ${({ open, scroll }) => (open ? "#transparent" : scroll? "#FFF" : "#000000")};
     transition: 0.5s;
     border-radius: 8px;
 
@@ -48,7 +72,7 @@ export const HeaderBurger = styled.div`
         position: absolute;
         width: 100%;
         height: 2px;
-        background-color: ${({ open }) => (open ? "#FFF" : "#000000")};
+        background-color: ${({ open, scroll }) => (open ? "#FFF" : scroll? "#FFF" : "#000000")};
         transition: 0.5s;
         border-radius: 8px;
       }
@@ -64,7 +88,6 @@ export const HeaderBurger = styled.div`
 
   }
 
-
 	display: none;
   cursor: pointer;
   z-index:  2;
@@ -72,14 +95,12 @@ export const HeaderBurger = styled.div`
   @media (max-width: 1160px) {
     display: block;
   }
-  @media(max-width: 580px) {
-    height: 14.5px;
-  }
 `;
 
 export const HeaderContent = styled.div`
   display: flex;
   gap: 60px;
+  align-items: center;
   @media (max-width: 1160px) {
     flex-direction: row-reverse;
   }
@@ -96,7 +117,7 @@ export const HeaderMenu = styled.nav`
     top: -30px;
     left: -40px;
     right: ${({ open }) => (open ? "0" : "-100%")};
-    height: 113vh;
+    height: 100vh;
     width: calc(100% + 80px);
     flex-direction: column;
     align-items: center;
@@ -132,17 +153,18 @@ export const HeaderList = styled.ul`
 `;
 export const HeaderItem = styled.li`
 	list-style: none;
-
-  @media(min-width:1160px) and (max-width:1300px){
-    width: 100px;
-  }
 `;
 export const HeaderLink= styled.a`
 	text-transform: uppercase;
 	text-decoration: none;
-	color: #B9B9B9;
+	color: ${({ scroll }) => (scroll ? "#FFF" : "#B9B9B9")};
 	font-weight: 600;
   position: relative;
+  font-size: 14px;
+
+  &.active {
+    color: #FF6B09;
+  }
 
   @media (max-width: 1160px) {
     color: #FFF;
@@ -158,12 +180,12 @@ export const HeaderLink= styled.a`
 
 /* Анимации */
   transition: color 0.5s ease;
-  &:hover{
+  &:not(.active):hover{
 		transform: scale(1.05);
     color: #FF6B09;
 	}
 
-	&::after{
+	&:not(.active)::after{
 		content: '';
 		position: absolute;
 		width: 100%;
@@ -185,26 +207,20 @@ export const HeaderLink= styled.a`
 
 export const ContactButton = styled.button`
 	text-transform: uppercase;
+  font-weight: 600;
 	color: #FF6B09;
-	background-color:#FFF ;
+	background-color: transparent;
 	border: 2px solid #FF6B09;
 	font-size: 14px;
   letter-spacing: 0.14em;
 	width: 260px;
 	height: 48px;
 
-	@media (min-width: 1161px) {
+	@media (min-width: 1220.9px) {
     width: 336px;
 	  height: 70px;
-    :hover{
-      transform: scale(0.9);
-    }
   }
-  @media (min-width: 581px) and (max-width: 1160px) {
-    :hover{
-      transform: scale(1.1);
-    }
-  }
+
   @media (max-width: 580px) {
     position: absolute;
     display: ${({ open }) => (open ? "block" : "none")};
@@ -217,14 +233,14 @@ export const ContactButton = styled.button`
 
 
   /* Анимация */
-  transition: transform 0.5s ease, border-radius 0.5s ease, box-shadow 0.5s ease, color 0.5s ease, background-color 0.5s ease, font-weight 0.5s ease; 
-&:hover{
-	cursor: pointer;
-	border-radius: 8px;
-	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
-  color: #FFF;
-  background-color: #FF6B09;
-  font-weight: 600;
+  @media(min-width: 1280.9px) {
+    transition: transform 0.5s ease, box-shadow 0.5s ease, color 0.5s ease, background-color 0.5s ease; 
+      &:hover{
+	      cursor: pointer;
+	      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+        color: #FFF;
+        background-color: #FF6B09;
 }
+	}
 `;
 

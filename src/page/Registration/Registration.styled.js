@@ -3,7 +3,7 @@ import {RegistrationBg} from '../../images';
 import { Form, Field, ErrorMessage} from 'formik';
 import { keyframes } from "@emotion/react";
 
-export const BgBox = styled.div`
+export const BgBox = styled.section`
 	margin-top: 130px;
 	background: url(${RegistrationBg});
 	background-color:#111518;
@@ -18,7 +18,7 @@ export const BgBox = styled.div`
 		margin-top: 61px;
 	}
 `;
-export const Box = styled.div`
+export const Box = styled.section`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -147,15 +147,15 @@ export const InputField = styled(Field)`
 	border: 1px solid #FFF;
 	cursor: pointer;
 
-	transition:border 0.5s ease, border-radius 0.5s ease, opacity 2s ease;
+	transition:border 0.5s ease, opacity 2s ease, outline 0.5s ease;
 	&:hover{
 		border: 1px solid #B9B9B9;
 	}
 	&:focus{
 		outline: none;
 		border: 1px solid #FF6B09;
-		border-radius: 10px;
 		cursor: pointer;
+		outline: 1px solid #FF6B09;
 
 		&::placeholder{
 		color: #FFF;
