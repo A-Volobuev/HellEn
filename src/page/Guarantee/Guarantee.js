@@ -1,4 +1,4 @@
-import { Box, EdgeBox, EdgeItem, EdgeText, FireSvg, SvgBox, Title } from "./Guarantee.styled";
+import { Box, EdgeBox, EdgeItem, EdgeText, Title } from "./Guarantee.styled";
 import {GuaranteeFireImg} from '../../images';
 
 export const GuaranteeBlock = () => {
